@@ -213,3 +213,8 @@ If there are errors or warnings, you can look at them in detail:
 ```
 velero restore describe nginx-20190413211418
 ```
+
+Delete backup
+```
+velero delete backup nginx-backup
+```
