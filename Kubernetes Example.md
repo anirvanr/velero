@@ -218,3 +218,10 @@ Delete backup
 ```
 velero delete backup nginx-backup
 ```
+
+
+Delete Velero
+```
+kubectl delete namespace/velero clusterrolebinding/velero
+kubectl delete crds -l component=velero
+```
